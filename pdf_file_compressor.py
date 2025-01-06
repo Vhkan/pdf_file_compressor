@@ -125,8 +125,8 @@ class PDFCompressor:
 
 def main():
     # Example usage
-    input_pdf = r"C:\Users\Vadym\Desktop\pdfCompressor\test_1.pdf"
-    output_pdf = r"C:\Users\Vadym\Desktop\pdfCompressor\compressed.pdf"
+    input_pdf = r"your_file_path\file_name_1.pdf"
+    output_pdf = r"your_file_path\file_name_2.pdf"
     
     compressor = PDFCompressor(input_pdf, output_pdf, image_quality=50)
     compressor.compress_pdf()
